@@ -31,7 +31,7 @@ import 'package:untitled2/utils/open_files.dart';
 import 'package:untitled2/utils/translation_helper.dart';
 
 import 'package:loader_overlay/loader_overlay.dart';
-import 'package:open_document/open_document.dart';
+import 'package:untitled2/utils/file_utils.dart';
 import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -341,7 +341,7 @@ Widget curriculumWidget(
                                       "$appSupportPath/${companyName}_${lessons?[index].name}$extension";
 
                                   final isCheck =
-                                      await OpenDocument.checkDocument(
+                                      await FileUtils.checkDocument(
                                           filePath: filePath);
 
                                   debugPrint("Exist: $isCheck");

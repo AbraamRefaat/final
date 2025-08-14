@@ -4,9 +4,7 @@ import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:untitled2/Config/app_config.dart';
 import 'package:untitled2/utils/CustomSnackBar.dart';
 import 'package:untitled2/utils/open_files.dart';
-import 'package:open_document/my_files/model/extract_zip.dart';
-import 'package:open_document/open_document.dart';
-//import 'package:open_document/open_document.dart' as od;
+import 'package:untitled2/utils/file_utils.dart';
 
 import 'MyFilesDialog.dart';
 import 'MyFilesItems.dart';
@@ -65,7 +63,7 @@ class SlidableMyFileItem extends StatelessWidget {
   }
 
   onUnzipFile(String path) =>
-      extractZip(path: path, updateFilesList: () => onStateRemove());
+      FileUtils.extractZip(zipPath: path, updateFilesList: () => onStateRemove());
 
   onStateRemove() {
     updateFilesList();

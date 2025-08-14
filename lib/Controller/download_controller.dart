@@ -9,7 +9,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:untitled2/utils/CustomSnackBar.dart';
 import 'package:untitled2/utils/widgets/progress_dialog_custom.dart';
-import 'package:open_document/open_document.dart';
+import 'package:untitled2/utils/file_utils.dart';
 
 // Project imports:
 import 'package:untitled2/Config/app_config.dart';
@@ -85,7 +85,7 @@ class DownloadController extends GetxController
 
       try {
         // Check if the file already exists
-        final isCheck = await OpenDocument.checkDocument(filePath: filePath);
+        final isCheck = await FileUtils.checkDocument(filePath: filePath);
         debugPrint("File exists: $isCheck");
 
         if (!isCheck) {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:open_document/my_files/model/style_my_file.dart';
+import 'package:untitled2/utils/file_models.dart';
 
 class HeaderMyFolderFile extends StatelessWidget {
   const HeaderMyFolderFile({
@@ -14,10 +14,11 @@ class HeaderMyFolderFile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final style = FileManagerInit.currentStyle;
     return Container(
       alignment: Alignment.topLeft,
       padding: EdgeInsets.symmetric(horizontal: 14),
-      height: StyleMyFile.heightHeader,
+      height: style.heightHeader ?? 56.0,
       color: Get.theme.primaryColor,
       child: buildListView(),
     );
@@ -38,16 +39,18 @@ class HeaderMyFolderFile extends StatelessWidget {
   }
 
   Container buildContainerSeparator() {
+    final style = FileManagerInit.currentStyle;
     return Container(
       alignment: Alignment.center,
       child: Icon(
         Icons.chevron_right,
-        color: (StyleMyFile.textColorHeader).withOpacity(0.55),
+        color: (style.textColorHeader ?? Colors.black87).withOpacity(0.55),
       ),
     );
   }
 
   Container buildContainer(String path, int index) {
+    final style = FileManagerInit.currentStyle;
     return Container(
       alignment: Alignment.center,
       child: Text(
@@ -55,8 +58,8 @@ class HeaderMyFolderFile extends StatelessWidget {
         style: TextStyle(
             fontSize: 14,
             color: (index == (lastPaths.length - 1))
-                ? (StyleMyFile.textColorHeader)
-                : (StyleMyFile.textColorHeader).withOpacity(0.75)),
+                ? (style.textColorHeader ?? Colors.black87)
+                : (style.textColorHeader ?? Colors.black87).withOpacity(0.75)),
         textAlign: TextAlign.center,
       ),
     );

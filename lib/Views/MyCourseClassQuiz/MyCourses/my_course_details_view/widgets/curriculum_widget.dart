@@ -33,7 +33,7 @@ import 'package:untitled2/utils/controller_utils.dart';
 
 import 'package:untitled2/Views/Downloads/DownloadsFolder.dart';
 
-import 'package:open_document/open_document.dart';
+import 'package:untitled2/utils/file_utils.dart';
 import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
 
@@ -556,7 +556,7 @@ Widget curriculumWidget(
                                         "$folderPath/${companyName}_${lessons?[index].name}$extension";
 
                                     final isCheck =
-                                        await OpenDocument.checkDocument(
+                                        await FileUtils.checkDocument(
                                             filePath: filePath);
 
                                     if (isCheck) {

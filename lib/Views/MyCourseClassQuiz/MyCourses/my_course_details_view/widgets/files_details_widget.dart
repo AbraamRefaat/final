@@ -12,7 +12,7 @@ import 'package:untitled2/Views/MyCourseClassQuiz/MyCourses/my_course_details_vi
 import 'package:untitled2/utils/open_files.dart';
 import 'package:untitled2/utils/translation_helper.dart';
 import 'package:loader_overlay/loader_overlay.dart';
-import 'package:open_document/open_document.dart';
+import 'package:untitled2/utils/file_utils.dart';
 import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
@@ -68,7 +68,7 @@ Widget fileDetailsWidget(BuildContext context, FileElement file,
 
         filePath = "$folderPath/${companyName}_${file.fileName}$extension";
 
-        final isCheck = await OpenDocument.checkDocument(filePath: filePath);
+        final isCheck = await FileUtils.checkDocument(filePath: filePath);
 
         debugPrint("Exist: $isCheck");
 

@@ -7,7 +7,7 @@ import 'package:get/get.dart';
 import 'package:untitled2/Config/app_config.dart';
 import 'package:untitled2/utils/translation_helper.dart';
 import 'package:loader_overlay/loader_overlay.dart';
-import 'package:open_document/my_files/init.dart';
+import 'package:untitled2/utils/file_models.dart';
 import 'MyFilesCore.dart' as MyFilesCore;
 import 'SlidableMyFileItem.dart' as sm;
 
@@ -60,7 +60,7 @@ class _DownloadsFolderState extends State<DownloadsFolder>
   void dispose() {
     lastPaths?.removeLast();
     isDelete = false;
-    CustomFileSystemEntity().clearValues();
+    FileManagerService().clearValues();
     super.dispose();
   }
 
@@ -259,9 +259,10 @@ class _DownloadsFolderState extends State<DownloadsFolder>
     Directory dir = new Directory(path);
     var lister = dir.list(recursive: false);
     lister.listen(
-      (file) {
+      (file) async {
         files.add(file);
-        CustomFileSystemEntity().map[file] = false;
+        final entity = await CustomFileSystemEntity.fromEntity(file);
+        FileManagerService().addEntity(file.path, entity);
       },
       onDone: () {
         lastPaths?.add(path);
@@ -282,7 +283,7 @@ class _DownloadsFolderState extends State<DownloadsFolder>
   openSelection() async {
     setState(() {
       isDelete = !isDelete;
-      CustomFileSystemEntity().clearValues();
+      FileManagerService().clearValues();
     });
   }
 
@@ -305,7 +306,12 @@ class _DownloadsFolderState extends State<DownloadsFolder>
   }
 
   onDelete(FileSystemEntity file) {
-    CustomFileSystemEntity().map[file] = !CustomFileSystemEntity().map[file]!;
+    final service = FileManagerService();
+    if (service.isSelected(file.path)) {
+      service.deselectFile(file.path);
+    } else {
+      service.selectFile(file.path);
+    }
     setState(() {});
   }
 
@@ -366,9 +372,8 @@ class _DownloadsFolderState extends State<DownloadsFolder>
 
   void deleteFiles() async {
     List<String> selectedFiles = [];
-    CustomFileSystemEntity().map.forEach((key, value) {
-      if (value) selectedFiles.add(key.path);
-    });
+    final service = FileManagerService();
+    selectedFiles.addAll(service.map.keys);
     Get.dialog(
       AlertDialog(
         title: Text(

@@ -3,8 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:open_document/my_files/model/custom_file_system_entity.dart';
-import 'package:open_document/my_files/model/style_my_file.dart';
+import 'package:untitled2/utils/file_models.dart';
 import 'package:intl/intl.dart';
 
 class MyFilesItems extends StatelessWidget {
@@ -141,23 +140,25 @@ class MyFilesItems extends StatelessWidget {
       ),
       decoration: buildBoxDecorationChecked(),
       child: buildCheckIcon(
-          isChecked: CustomFileSystemEntity().map[item] ?? false),
+          isChecked: FileManagerService().isSelected(item.path)),
     );
   }
 
   BoxDecoration buildBoxDecorationChecked() {
+    final style = FileManagerInit.currentStyle;
     return BoxDecoration(
       border: Border.all(color: Get.textTheme.titleMedium?.color ?? Color(0xFFFFFFFF), width: 0.5),
-      color: StyleMyFile.textColorHeader,
+      color: style.textColorHeader ?? Colors.black87,
     );
   }
 
   Center buildCheckIcon({bool isChecked = false}) {
+    final style = FileManagerInit.currentStyle;
     return Center(
       child: Icon(
         Icons.check,
         size: 18,
-        color: isChecked ? Get.theme.primaryColor : StyleMyFile.textColorHeader,
+        color: isChecked ? Get.theme.primaryColor : style.textColorHeader ?? Colors.black87,
       ),
     );
   }

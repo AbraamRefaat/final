@@ -45,7 +45,7 @@ dependencies:
   flutter_spinkit: ^5.2.1
   # razorpay_flutter: ^1.4.0  # Remove if not used
 
-  open_document: ^1.0.7
+  # open_document: ^1.0.7  # Removed due to Android namespace issues
   # paytm_allinonesdk:
   #   git: https://github.com/cmtboy/paytm_allinonesdk-1.2.6
 

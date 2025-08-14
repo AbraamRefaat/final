@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:open_document/my_files/model/style_my_file.dart';
+import 'package:untitled2/utils/file_models.dart';
 
 class MyFilesDialog extends StatelessWidget {
   final String path;
@@ -23,17 +23,20 @@ class MyFilesDialog extends StatelessWidget {
   }
 
   Widget getAlertContent(context) {
-    return isDirectory
-        ? StyleMyFile.myFileDialogAlertFolder
-        : StyleMyFile.myFileDialogAlertFile;
+    final style = FileManagerInit.currentStyle;
+    final message = isDirectory
+        ? style.myFileDialogAlertFolder ?? "Are you sure you want to delete this folder?"
+        : style.myFileDialogAlertFile ?? "Are you sure you want to delete this file?";
+    return Text(message);
   }
 
   List<Widget> buildActions(context) {
+    final style = FileManagerInit.currentStyle;
     List<Widget> actions = [];
-    actions.add(createActionButton(context, StyleMyFile.textActionCancel));
+    actions.add(createActionButton(context, style.textActionCancel ?? "Cancel"));
     actions.add(createActionButton(
       context,
-      StyleMyFile.textActionDelete,
+      style.textActionDelete ?? "Delete",
       onDeleteFile: () => onPressed(),
     ));
     return actions;

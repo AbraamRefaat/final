@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:untitled2/Config/app_config.dart';
-import 'package:open_document/my_files/model/custom_file_system_entity.dart';
-import 'package:open_document/my_files/model/style_my_file.dart';
+import 'package:untitled2/utils/file_models.dart';
 
 class ButtonShare extends StatelessWidget {
   final Function onClick;
@@ -10,7 +9,7 @@ class ButtonShare extends StatelessWidget {
   const ButtonShare({Key? key, required this.onClick}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    bool enable = CustomFileSystemEntity().hasSelectedFiles();
+    bool enable = FileManagerService().hasSelectedFiles();
     return SafeArea(
       child: Padding(
           padding: EdgeInsets.all(8),
@@ -44,7 +43,7 @@ class ButtonShare extends StatelessWidget {
 
   Widget buildElevatedButton(
       {@required String? title, required int index, bool? cancel}) {
-    bool enable = CustomFileSystemEntity().hasSelectedFiles();
+    bool enable = FileManagerService().hasSelectedFiles();
     return ElevatedButton(
       onPressed: () => enable || index == 3 || index == 2
           ? onClick(index)
@@ -73,10 +72,11 @@ class ButtonShare extends StatelessWidget {
   }
 
   TextStyle buildTextStyle(bool enable) {
+    final style = FileManagerInit.currentStyle;
     return TextStyle(
       color: enable
-          ? StyleMyFile.elevatedButtonTextStyleEnable
-          : StyleMyFile.elevatedButtonTextStyleDisable,
+          ? style.elevatedButtonTextStyleEnable?.color ?? Colors.white
+          : style.elevatedButtonTextStyleDisable?.color ?? Colors.grey,
     );
   }
 }
