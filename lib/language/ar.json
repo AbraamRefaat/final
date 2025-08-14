@@ -1,0 +1,390 @@
+{
+  "Home": "الرئيسية",
+  "Cart List": "قائمة التسوق",
+  "My Courses": "دوراتي",
+  "Account": "حسابي",
+  "Enrolled Courses": "الدورات المسجلة",
+  "Finished Courses": "الدورات المكتملة",
+  "Settings": "الإعدادات",
+  "Change Language": "تغيير اللغة",
+  "Language": "اللغة",
+  "Privacy Policy": "سياسة الخصوصية",
+  "Rate our App": "قيم تطبيقنا",
+  "Contact Us": "تواصل معنا",
+  "Top Categories": "أهم الفئات",
+  "Courses": "المحاضرات",
+  "Featured Courses": "المحاضرات الحالية",
+  "Popular Courses": "الدورات الشائعة",
+  "See All": "عرض الكل",
+  "What do you want to learn?": "ماذا تريد أن تتعلم؟",
+  "Please Sign in": "الرجاء تسجيل الدخول",
+  "Sign In": "تسجيل الدخول",
+  "Enter Your Email": "ادخل بريدك الالكتروني",
+  "password": "كلمة المرور",
+  "All Courses": "كل الدورات",
+  "Filter Courses": "تصفية الدورات",
+  "Category": "الفئة",
+  "Topic": "الموضوع",
+  "Skill Level": "مستوى المهارة",
+  "Price": "السعر",
+  "Reset": "إعادة تعيين",
+  "Apply": "تطبيق",
+  "Course found": "تم العثور على الدورة",
+  "Change Password": "تغيير كلمة المرور",
+  "Change Language": "تغيير اللغة",
+  "Confirm": "تأكيد",
+  "Sign Out": "تسجيل الخروج",
+  "Choose Image": "اختر صورة",
+  "Basic Information": "معلومات أساسية",
+  "full_name": "الاسم الكامل",
+  "email": "البريد الإلكتروني",
+  "student_phone_number": "رقم هاتف الطالب",
+  "Phone Number": "رقم الهاتف",
+  "Address": "العنوان",
+  "Country": "الدولة",
+  "City": "المدينة",
+  "Zip Code": "الرمز البريدي",
+  "Update Information": "تحديث المعلومات",
+  "Cancel": "إلغاء",
+  "Old Password": "كلمة المرور القديمة",
+  "New Password": "كلمة المرور الجديدة",
+  "confirm_password": "تأكيد كلمة المرور",
+  "Update Password": "تحديث كلمة المرور",
+  "There are no items in Cart": "لا توجد عناصر في سلة التسوق",
+  "Remove": "إزالة",
+  "Order Summary": "ملخص الطلب",
+  "Total": "الإجمالي",
+  "Enter coupon code": "ادخل كود الخصم",
+  "Coupon must not be empty": "كود الخصم لا يجب أن يكون فارغًا",
+  "Proceed to Checkout": "المتابعة للدفع",
+  "Browse Courses": "تصفح الدورات",
+  "Enroll the Course": "التسجيل في الدورة",
+  "View On Cart": "عرض في السلة",
+  "Back": "رجوع",
+  "based on": "بناء على",
+  "review": "مراجعة",
+  "Beginner": "مبتدئ",
+  "Intermediate": "متوسط",
+  "Advance": "متقدم",
+  "Pro": "محترف",
+  "Description": "الوصف",
+  "Curriculum": "المنهج الدراسي",
+  "Reviews": "المراجعات",
+  "Outcome": "النتائج",
+  "Requirements": "المتطلبات",
+  "Files": "الملفات",
+  "Q/A": "أسئلة وأجوبة",
+  "Downloading": "جاري التحميل",
+  "Add Comment": "أضف تعليق",
+  "No": "لا",
+  "Yes": "نعم",
+  "Would you like to download the file?": "هل ترغب في تحميل الملف؟",
+  "Permission denied": "تم رفض الإذن",
+  "You must grant all permission to use this application": "يجب عليك منح جميع الأذونات لاستخدام هذا التطبيق",
+  "Status": "الحالة",
+  "View Cart": "عرض السلة",
+  "Select Billing": "اختر الفوترة",
+  "Amount to checkout": "المبلغ للدفع",
+  "Add New Address": "إضافة عنوان جديد",
+  "Choose old Address": "اختر عنوان قديم",
+  "Create Order": "إنشاء طلب",
+  "Error": "خطأ",
+  "Please fill-up all the fields": "الرجاء تعبئة جميع الحقول",
+  "Proceed to Payment": "الانتقال للدفع",
+  "Add Billing Address": "إضافة عنوان الفوترة",
+  "First Name": "الاسم الأول",
+  "Last Name": "الاسم الأخير",
+  "Select Country": "اختر الدولة",
+  "Select City": "اختر المدينة",
+  "Phone": "الهاتف",
+  "Select Payment Method": "اختر طريقة الدفع",
+  "Processing Wallet Payment": "جاري معالجة الدفع عبر المحفظة",
+  "Please wait": "الرجاء الانتظار",
+  "Processing RazorPay Payment": "جاري معالجة الدفع عبر RazorPay",
+  "Processing Paypal Payment": "جاري معالجة الدفع عبر Paypal",
+  "Processing PayTM Payment": "جاري معالجة الدفع عبر PayTM",
+  "Processing Midtrans Payment": "جاري معالجة الدفع عبر Midtrans",
+  "Processing PayStack Payment": "جاري معالجة الدفع عبر PayStack",
+  "Processing Flutterwave Payment": "جاري معالجة الدفع عبر Flutterwave",
+  "Payment cancelled": "تم إلغاء الدفع",
+  "Select a payment method": "اختر طريقة دفع",
+  "Register": "تسجيل",
+  "Name": "الاسم",
+  "student_whatsapp_number": "رقم WhatsApp الطالب",
+  "guardian_number": "رقم ولي الامر",
+  "Already have an account? Login now": "لديك حساب بالفعل؟ سجل الدخول الآن",
+  "Don't have an Account? Register now": "ليس لديك حساب؟ سجل الآن",
+  "Free": "مجاني",
+  "Schedule": "الجدول الزمني",
+  "Instructor": "المدرب",
+  "Featured Class": "فصل دراسي مميز",
+  "Classes": "الفصول الدراسية",
+  "My Class": "فصلي الدراسي",
+  "All Class": "كل الفصول الدراسية",
+  "Dark Theme": "الوضع الداكن",
+  "Light Theme": "الوضع الفاتح",
+  "Dashboard": "لوحة التحكم",
+  "Cart": "السلة",
+  "No Quiz found": "لم يتم العثور على اختبار",
+  "No Course found": "لم يتم العثور على المحاضرات",
+  "No Class found": "لم يتم العثور على فصل دراسي",
+  "No categories available": "لا توجد فئات متاحة",
+  "No course available": "لا توجد دورات متاحة",
+  "Featured Quizzes": "الاختبارات المميزة",
+  "Not verified": "غير موثق",
+  "Verify Your Email Address": "تحقق من عنوان بريدك الإلكتروني",
+  "Before proceeding, please check your email for a verification link Login in Using that Link.": "قبل المتابعة ، يرجى مراجعة بريدك الإلكتروني للحصول على رابط التحقق وتسجيل الدخول باستخدام هذا الرابط.",
+  "Logged out": "تم تسجيل الخروج",
+  "Error in Sign out": "خطأ في تسجيل الخروج",
+  "My Quiz": "اختباري",
+  "Quiz": "اختبار",
+  "courses": "الدورات",
+  "classes": "الفصول الدراسية",
+  "quiz": "اختبار",
+  "Done": "تم",
+  "Download": "تحميل",
+  "Error downloading file": "خطأ في تحميل الملف",
+  "No Image selected": "لم يتم اختيار صورة",
+  "Success": "نجاح",
+  "Failed": "فشل",
+  "Warning": "تحذير",
+  "Instruction": "تعليمات",
+  "Results": "النتائج",
+  "Paid": "مدفوع",
+  "Please type your password": "الرجاء كتابة كلمة المرور الخاصة بك",
+  "Password must be at-least 8 characters": "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل",
+  "New Password and Confirm Password is not same": "كلمة المرور الجديدة وتأكيد كلمة المرور غير متطابقين",
+  "Continue": "متابعة",
+  "CVC not valid": "CVC غير صالح",
+  "Date not valid": "التاريخ غير صالح",
+  "Number not valid": "الرقم غير صالح",
+  "Success! Thanks for buying.": "نجاح! شكرا للشراء.",
+  "Warning! Canceled Transaction.": "تحذير! تم إلغاء المعاملة.",
+  "Warning! Transaction rejected.Something went wrong": "تحذير! تم رفض المعاملة. هناك خطأ ما",
+  "Something went wrong": "هناك خطأ ما",
+  "Select State": "اختر الولاية",
+  "Order Completed": "اكتمل الطلب",
+  "Thank you for making the payment": "شكرا لك على الدفع",
+  "Close": "إغلاق",
+  "Payment was not successful, Please try again Later": "لم ينجح الدفع ، يرجى المحاولة مرة أخرى لاحقًا",
+  "Problem Verifying Payment, If you balance is deducted please contact our customer support and get your payment verified!": "مشكلة في التحقق من الدفع ، إذا تم خصم رصيدك ، فيرجى الاتصال بدعم العملاء لدينا والتحقق من دفعتك!",
+  "Delete All": "حذف الكل",
+  "Complete": "اكتمل",
+  "Do you want to delete all files/folders in this directory?": "هل تريد حذف جميع الملفات / المجلدات في هذا الدليل؟",
+  "Do you want to delete?": "هل تريد الحذف؟",
+  "Deleted successfully": "تم الحذف بنجاح",
+  "Error Deleting file": "خطأ في حذف الملف",
+  "Start Date": "تاريخ البدء",
+  "Time (Start-End)": "الوقت (البداية-النهاية)",
+  "Duration": "المدة",
+  "Enroll the Class": "التسجيل في الفصل",
+  "Login": "تسجيل الدخول",
+  "You are not Logged In": "لم تقم بتسجيل الدخول",
+  "Get Full Access": "الحصول على وصول كامل",
+  "Rate the course": "تقييم الدورة",
+  "Rate the class": "تقييم الفصل",
+  "Your rating": "تقييمك",
+  "Your Review": "مراجعتك",
+  "Submit Review": "إرسال المراجعة",
+  "No Review Found": "لم يتم العثور على مراجعة",
+  "This lesson is locked. Purchase this course to get full access.": "هذا الدرس مقفل. قم بشراء هذه الدورة للحصول على وصول كامل.",
+  "Unable to open": "غير قادر على الفتح",
+  "Would you like to download this file?": "هل ترغب في تحميل هذا الملف؟",
+  "All Quiz": "كل الاختبارات",
+  "Quiz Time": "وقت الاختبار",
+  "minute(s) per question": "دقيقة (دقائق) لكل سؤال",
+  "minute(s)": "دقيقة (دقائق)",
+  "Enroll the Quiz": "التسجيل في الاختبار",
+  "Audio Only": "صوت فقط",
+  "Audio Muted": "تم كتم الصوت",
+  "Video Muted": "تم كتم الفيديو",
+  "Watch Now": "شاهد الآن",
+  "Waiting": "انتظار",
+  "The Live Class haven't started yet": "لم يبدأ الفصل المباشر بعد",
+  "Unable to start live class": "غير قادر على بدء الفصل المباشر",
+  "Do you want to start the quiz?": "هل تريد أن تبدأ الاختبار؟",
+  "Error Starting Quiz": "خطأ في بدء الاختبار",
+  "Start": "ابدأ",
+  "My Downloads": "تنزيلاتي",
+  "no results found": "لم يتم العثور على نتائج",
+  "Date": "التاريخ",
+  "Mark": "علامة",
+  "Rating": "تقييم",
+  "Pending": "قيد الانتظار",
+  "Congratulations! You've completed Quiz Test": "تهانينا! لقد أكملت اختبار الاختبار",
+  "Time taken": "الوقت المستغرق",
+  "Correct": "صحيح",
+  "Wrong": "خطأ",
+  "Skipped": "تم التخطي",
+  "Show Results": "عرض النتائج",
+  "Please wait till completion marking process": "يرجى الانتظار حتى اكتمال عملية التصحيح",
+  "Answer": "إجابة",
+  "Quiz Result Processing. Please wait": "جاري معالجة نتيجة الاختبار. يرجى الانتظار",
+  "Question": "سؤال",
+  "Please type something": "الرجاء كتابة شيء ما",
+  "Error submitting answer": "خطأ في إرسال الإجابة",
+  "Please select an option": "الرجاء تحديد خيار",
+  "Skip Question": "تخطي السؤال",
+  "Left for the quiz": "متبقي للاختبار",
+  "Left for this section": "متبقي لهذا القسم",
+  "Search in": "بحث في",
+  "Downloads": "التنزيلات",
+  "Please Log in": "الرجاء تسجيل الدخول",
+  "Login Cancelled": "تم إلغاء تسجيل الدخول",
+  "Or continue with": "أو المتابعة مع",
+  "This lesson is locked. Purchase this course to get full access": "هذا الدرس مقفل. قم بشراء هذه الدورة للحصول على وصول كامل",
+  "Payment": "الدفع",
+  "Invalid Credentials": "بيانات الاعتماد غير صالحة",
+  "Wrong Email or Password. Please try again": "بريد إلكتروني أو كلمة مرور خاطئة. يرجى المحاولة مرة أخرى",
+  "Something went wrong!": "هناك خطأ ما!",
+  "Confirm": "تأكيد",
+  "Start Quiz": "ابدأ الاختبار",
+  "Submit": "إرسال",
+  "Please check your Internet Connection": "يرجى التحقق من اتصالك بالإنترنت",
+  "Facebook": "فيسبوك",
+  "Google": "جوجل",
+  "Hour(s)": "ساعة (ساعات)",
+  "Select Language": "اختر اللغة",
+  "Deleting your account is permanent": "حذف حسابك نهائي",
+  "Are you sure you want to delete your account": "هل أنت متأكد من أنك تريد حذف حسابك",
+  "Enter your password": "ادخل كلمة المرور الخاصة بك",
+  "Delete account": "حذف الحساب",
+  "Are you sure you want to exit": "هل أنت متأكد أنك تريد الخروج",
+  "No, Never": "لا ، أبدا",
+  "Yes, Exit": "نعم ، خروج",
+  "Storage permission is required to access files.": "إذن التخزين مطلوب للوصول إلى الملفات.",
+  "No Data Available": "لا توجد بيانات متاحة",
+  "Error loading Image": "خطأ في تحميل الصورة",
+  "Delete": "حذف",
+  "Confirm Password": "تأكيد كلمة المرور",
+  "My Quizzes": "اختباراتي",
+  "Quiz Archive": "أرشيف الاختبارات",
+  "Quiz Details": "تفاصيل الاختبار",
+  "Questions": "الأسئلة",
+  "Email": "البريد الإلكتروني",
+  "Password": "كلمة المرور",
+  "Specification": "المواصفات",
+  "Student phone number": "رقم هاتف الطالب",
+  "Submit": "إرسال",
+  "View your completed quiz results": "عرض نتائج الاختبارات المكتملة",
+  "No completed quizzes found": "لم يتم العثور على اختبارات مكتملة",
+  "Complete some quizzes to see your results here": "أكمل بعض الاختبارات لرؤية نتائجك هنا",
+  "Completed": "مكتمل",
+  "View Results": "عرض النتائج",
+  "View Detailed Results": "عرض النتائج التفصيلية",
+  "Quiz Results": "نتائج الاختبار",
+  "View Answers": "عرض الإجابات",
+  "Quiz Answers": "إجابات الاختبار",
+  "TRUE": "صحيح",
+  "FALSE": "خطأ",
+  "Question": "سؤال",
+  "Debug": "تصحيح",
+  "Question text is empty or null": "نص السؤال فارغ أو غير موجود",
+  "Instructor": "المدرب",
+  "Score": "النتيجة",
+  "Secondary One": "الثانوية الأولى",
+  "Secondary Two": "الثانوية الثانية",
+  "Secondary Three": "الثانوية الثالثة",
+  "First Secondary": "الثانوي الأول",
+  "Second Secondary": "الثانوي الثاني",
+  "Third Secondary": "الثانوي الثالث",
+  "Buy Now": "اشتري الآن",
+  "Add to Cart": "أضف للسلة",
+  "Remove from Cart": "احذف من السلة",
+  "Your order": "طلبك",
+  "Subtotal": "المجموع الفرعي",
+  "Discount": "الخصم",
+  "Final Amount": "المبلغ النهائي",
+  "Please enter coupon code": "الرجاء إدخال كود الخصم",
+  "Apply Coupon": "تطبيق الكوبون",
+  "Apply Coupon & Complete Order": "تطبيق الكوبون وإكمال الطلب",
+  "Enter your coupon code and click 'Apply Coupon & Complete Order' to complete your purchase.": "أدخل كود الكوبون الخاص بك وانقر على 'تطبيق الكوبون وإكمال الطلب' لإكمال عملية الشراء.",
+  "Remove Coupon": "إزالة الكوبون",
+  "Coupon Applied": "تم تطبيق الكوبون",
+  "Enter Coupon Code": "أدخل كود الكوبون",
+  "Coupon Code": "كود الكوبون",
+  "Invalid coupon code": "كود كوبون غير صالح",
+  "Coupon has expired": "انتهت صلاحية الكوبون",
+  "Coupon already used": "تم استخدام الكوبون بالفعل",
+  "Coupon usage limit exceeded": "تم تجاوز حد استخدام الكوبون",
+  "Coupon applied successfully": "تم تطبيق الكوبون بنجاح",
+  "Coupon removed successfully": "تم حذف الكوبون بنجاح",
+  "Processing order": "جاري معالجة الطلب",
+  "Order completed successfully": "تم إكمال الطلب بنجاح",
+  "Order failed": "فشل الطلب",
+  "Cart is empty": "السلة فارغة",
+  "Loading cart": "جاري تحميل السلة",
+  "Adding to cart": "جاري الإضافة للسلة",
+  "Removing from cart": "جاري الحذف من السلة",
+  "Cart updated": "تم تحديث السلة",
+  "Continue Shopping": "متابعة التسوق",
+  "Checkout": "الدفع",
+  "Clear Cart": "مسح السلة",
+  "Cart cleared": "تم مسح السلة",
+  "Item": "عنصر",
+  "Items": "عناصر",
+  "Course Price": "سعر الدورة",
+  "You saved": "وفرت",
+  "Free Course": "دورة مجانية",
+  "Purchase": "شراء",
+  "Purchasing": "جاري الشراء",
+  "Course purchased successfully": "تم شراء الدورة بنجاح",
+  "Purchase failed": "فشل الشراء",
+  "Please login to purchase": "الرجاء تسجيل الدخول للشراء",
+  "Course already purchased": "تم شراء الدورة بالفعل",
+  "Course added to cart": "تم إضافة الدورة للسلة",
+  "Course removed from cart": "تم حذف الدورة من السلة",
+  "Already in cart": "موجود في السلة بالفعل",
+  "Go to Cart": "اذهب للسلة",
+  "Empty Cart": "سلة فارغة",
+  "No items in your cart": "لا توجد عناصر في سلتك",
+  "Start browsing courses to add them to your cart": "ابدأ بتصفح الدورات لإضافتها لسلتك",
+  "Coupon": "كوبون",
+  "Have a coupon?": "لديك كوبون؟",
+  "Verify": "تحقق",
+  "Verifying": "جاري التحقق",
+  "Invalid format": "تنسيق غير صالح",
+  "Please enter a valid coupon code": "الرجاء إدخال كود كوبون صالح",
+  "Coupon verification failed": "فشل التحقق من الكوبون",
+  "This coupon has expired": "انتهت صلاحية هذا الكوبون",
+  "This coupon has already been used": "تم استخدام هذا الكوبون بالفعل",
+  "Coupon usage limit exceeded": "تم تجاوز حد استخدام الكوبون",
+  "Order": "الطلب",
+  "Placing order": "جاري تقديم الطلب",
+  "Order placed successfully": "تم تقديم الطلب بنجاح",
+  "Failed to place order": "فشل في تقديم الطلب",
+  "Order Summary": "ملخص الطلب",
+  "Complete Order": "إكمال الطلب",
+  "Processing": "جاري المعالجة",
+  "Please wait while we process your order": "الرجاء الانتظار بينما نعالج طلبك",
+  "Thank you for your purchase": "شكرا لك على الشراء",
+  "Your courses are now available in My Courses": "دوراتك متاحة الآن في دوراتي",
+  "View My Courses": "عرض دوراتي",
+  "Order Details": "تفاصيل الطلب",
+  "Order ID": "رقم الطلب",
+  "Order Date": "تاريخ الطلب",
+  "Payment Method": "طريقة الدفع",
+  "Coupon Used": "الكوبون المستخدم",
+  "Savings": "المدخرات",
+  "Amount Paid": "المبلغ المدفوع",
+  "Currency": "ج.م",
+  "Total Amount": "المبلغ الإجمالي",
+  "🔓 Unlock Course": "🔓 التسجيل في الدورة",
+  "Unlocking Course": "جاري فتح الدورة",
+  "Processing Purchase": "جاري معالجة الشراء",
+  "Please apply a valid coupon to unlock this course": "يرجى تطبيق كوبون صحيح لفتح هذه الدورة",
+  "Failed to process course unlock": "فشل في معالجة فتح الدورة",
+  "🎉 Course unlocked successfully! Welcome to your new course.": "🎉 تم فتح الدورة بنجاح! مرحباً بك في دورتك الجديدة.",
+  "You can now access your course in \"My Courses\"": "يمكنك الآن الوصول إلى دورتك في \"دوراتي\"",
+  "Course unlock failed": "فشل فتح الدورة",
+  "❌ Coupon has expired. Please try a different coupon.": "❌ انتهت صلاحية الكوبون. يرجى المحاولة بكوبون آخر.",
+  "❌ Coupon has already been used. Please try a different coupon.": "❌ تم استخدام الكوبون بالفعل. يرجى المحاولة بكوبون آخر.",
+  "❌ Invalid coupon code. Please check and try again.": "❌ كود كوبون غير صحيح. يرجى التحقق والمحاولة مرة أخرى.",
+  "❌ Coupon error: ": "❌ خطأ في الكوبون: ",
+  "❌ Failed to unlock course: ": "❌ فشل في فتح الدورة: ",
+  "❌ Error unlocking course. Please try again.": "❌ خطأ في فتح الدورة. يرجى المحاولة مرة أخرى.",
+  "Study Type": "نوع الدراسة",
+  "Online": "أونلاين",
+  "Offline": "أوفلاين",
+  "Student Code": "كود الطالب"
+} 
