@@ -346,15 +346,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_paystack:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: master
-      resolved-ref: eaa6a87c1c984010c99cd464ef119a0266078cb9
-      url: "https://github.com/I-driod/flutter_paystack.git"
-    source: git
-    version: "1.0.7"
   flutter_plugin_android_lifecycle:
     dependency: transitive
     description:

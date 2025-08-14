@@ -57,10 +57,10 @@ dependencies:
 
   vdocipher_flutter: ^2.6.6
 
-  flutter_paystack:
-    git:
-      url: https://github.com/I-driod/flutter_paystack.git
-      ref: master
+  # flutter_paystack:
+  #   git:
+  #     url: https://github.com/I-driod/flutter_paystack.git
+  #     ref: master
 
   # eko_jitsi:
   #   path: eko-jitsi
